@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>موقعي الشخصي</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ffffff;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #009688;
+            color: #fff;
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #00695c;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        nav ul li {
+            margin: 0;
+        }
+
+        nav ul li a {
+            display: block;
+            padding: 15px 25px;
+            color: #fff;
+            text-decoration: none;
+        }
+
+        nav ul li a:hover {
+            background-color: #004d40;
+        }
+
+        section {
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        section img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin-top: 20px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+
+        form {
+            max-width: 500px;
+            margin: 0 auto;
+            text-align: right;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 12px;
+            margin: 10px 0;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+
+        button {
+            background-color: #009688;
+            color: white;
+            border: none;
+            padding: 12px 25px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        button:hover {
+            background-color: #00796b;
+        }
+
+        .social {
+            margin-top: 30px;
+        }
+
+        .social a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #009688;
+            font-weight: bold;
+        }
+
+        footer {
+            background-color: #f3f3f3;
+            text-align: center;
+            padding: 20px;
+            color: #777;
+        }
+
+        h2 {
+            color: #009688;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>مرحباً بك في موقعي</h1>
+    <p>نقدم لك تجربة مميزة بخدماتنا ومحتوانا.</p>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="#home">الرئيسية</a></li>
+        <li><a href="#about">حول</a></li>
+        <li><a href="#services">الخدمات</a></li>
+        <li><a href="#contact">اتصل بنا</a></li>
+    </ul>
+</nav>
+
+<section id="home">
+    <h2>الرئيسية</h2>
+    <p>مرحباً بك في صفحتنا الرئيسية حيث تجد كل جديد.</p>
+    <img src="https://source.unsplash.com/800x400/?technology" alt="صورة رئيسية" />
+</section>
+
+<section id="about">
+    <h2>حول</h2>
+    <p>نحن فريق شغوف بالتقنية والتطوير، نعمل على تقديم أفضل الحلول الرقمية.</p>
+    <img src="https://source.unsplash.com/800x400/?team" alt="فريق العمل" />
+</section>
+
+<section id="services">
+    <h2>الخدمات</h2>
+    <p>نقدم مجموعة من الخدمات تشمل تصميم المواقع، الاستشارات التقنية، ودورات تدريبية.</p>
+    <img src="https://source.unsplash.com/800x400/?services" alt="خدماتنا" />
+</section>
+
+<section id="contact">
+    <h2>اتصل بنا</h2>
+    <p>يرجى ملء النموذج التالي للتواصل معنا:</p>
+    <form action="mailto:example@example.com" method="post" enctype="text/plain">
+        <input type="text" name="name" placeholder="الاسم الكامل" required />
+        <input type="email" name="email" placeholder="البريد الإلكتروني" required />
+        <textarea name="message" rows="5" placeholder="اكتب رسالتك هنا..." required></textarea>
+        <button type="submit">إرسال</button>
+    </form>
+
+    <div class="social">
+        <h3>تابعنا على:</h3>
+        <a href="https://www.facebook.com/Buqatti2002/" target="_blank">فيسبوك</a>
+        <a href="https://www.youtube.com/channel/UCpmt-Bc2AlLJWRPdvpxck-g" target="_blank">يوتيوب</a>
+    </div>
+</section>
+
+<footer>
+    <p>جميع الحقوق محفوظة &copy; 2025</p>
+</footer>
+
+</body>
+</html>
